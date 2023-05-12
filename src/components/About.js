@@ -10,9 +10,9 @@ const About = () => {
           <img src={cake} alt="a woman decorating a cake" />
         </div>
         <div className="paragraph">
-          <h1>Lena Wamugunda, Owner</h1>
+          <h1>Lena Wamugunda, Boss Baker</h1>
           <br />
-          <p>
+          <p className="about-paragraph">
             With Baecakes, we go beyond simply baking delicious treats – we
             create edible works of art that are as stunning as they are
             scrumptious. Whether you're planning a special occasion, surprising
