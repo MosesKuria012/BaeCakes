@@ -8,6 +8,9 @@ const Cakes = () => {
   }, [])
   return (
     <div className="cakes">
+      <header>
+        <h2 className="baecakes">Our Popular Cakes</h2>
+      </header>
       <div className="cakes-container">
         {cakesData.map((cake, index) => (
           <div key={index} className="cake-item">
