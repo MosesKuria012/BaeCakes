@@ -187,16 +187,13 @@ h1 {
   }
 
   .paragraph {
-    font-size: 0.9em;
+    font-size: 1.5em;
     text-overflow: ellipsis;
   }
 
   .about-paragraph {
     font-size: 0.5em;
     text-overflow: ellipsis;
-  }
-  .link {
-    font-size: 1.1em;
   }
 }
 
@@ -256,7 +253,7 @@ h1 {
 
 @media (max-width: 768px) {
   .cake-item {
-    width: calc(70% - 210px);
+    width: calc(70% - 200px);
     height: 250px;
     flex-direction: column;
     justify-content: flex-start;
@@ -272,5 +269,6 @@ h1 {
   .name {
     position: static;
     margin: 10px 0;
+    width: 100%;
   }
 }
