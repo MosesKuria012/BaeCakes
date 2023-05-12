@@ -98,29 +98,36 @@
 }
 /* about page styling*/
 .container2 {
-  min-height: 100vh;
-  width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+  padding: 40px;
 }
 
-img {
-  flex-basis: 43%;
-  height: 100vh;
-  display: block;
-  padding: 30px;
-  background-position: center;
+.lena-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 1%;
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .paragraph {
-  font-size: 1.7em;
-  flex-basis: 57%;
-  margin: 10px 0;
-  font-weight: 400;
-  max-width: 800px;
-  padding: 40px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about-paragraph {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
 }
 
 /*social media*/
@@ -238,13 +245,13 @@ img {
 
 @media (max-width: 768px) {
   .cake-item {
-    flex: 0 0 calc(50% - 20px);
     width: calc(36.6% - 40px);
-    max-width: calc(50%);
+
     height: 250px;
     justify-content: flex-end;
   }
   .cakes img {
+    object-fit: cover;
     height: 100%;
     margin-bottom: 10px;
   }
